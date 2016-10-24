@@ -82,7 +82,7 @@ var TwitterClone = React.createClass({
       				<textarea placeholder="enter a tweet dude!" className="form-control" ref={(textarea) => this._body = textarea}></textarea>
       			</div>
       			<div style={divStyles}>
-      				<Button type="submit" className="btn btn-success">Tweet</Button>
+      				<Button type="submit" className="btn btn-primary"><i className="fa fa-twitter" aria-hidden="true"></i> Tweet</Button>
       			</div>
       		</form>
       	</div>

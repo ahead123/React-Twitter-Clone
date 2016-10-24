@@ -15,7 +15,7 @@ var EachTweet = React.createClass({
 	 					<h5 className="text-info" key={tweet.key+"5"}>{tweet.body}</h5>
 	 				</div>
 	 				<div key={tweet.key+"6"}>
-	 					<p key={tweet.key+"7"}>Date: {moment().format('LLLL')}</p>
+	 					<p key={tweet.key+"7"}>Date: {moment(tweet.key).format('LLLL')}</p>
 	 				</div>
 	 			</div>
  			) 

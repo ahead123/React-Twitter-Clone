@@ -42678,7 +42678,7 @@ var EachTweet = _react2.default.createClass({
             'p',
             { key: tweet.key + "7" },
             'Date: ',
-            (0, _moment2.default)().format('LLLL')
+            (0, _moment2.default)(tweet.key).format('LLLL')
           )
         )
       );
@@ -42803,8 +42803,9 @@ var TwitterClone = _react2.default.createClass({
 						{ style: divStyles },
 						_react2.default.createElement(
 							_reactBootstrap.Button,
-							{ type: 'submit', className: 'btn btn-success' },
-							'Tweet'
+							{ type: 'submit', className: 'btn btn-primary' },
+							_react2.default.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true' }),
+							' Tweet'
 						)
 					)
 				)
