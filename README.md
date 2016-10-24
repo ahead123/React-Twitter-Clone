@@ -7,7 +7,7 @@ REACT TWITTER CLONE: Project to explore Stateful Components with React
 
 - Clone the repo to your local machine
 - Run `npm install` to install node modules
-- Run `npm build` to build the app
+- Run `npm run build` to build the app
 - Open index.html in the browser
 
 ## Contributing
