@@ -5,10 +5,6 @@ REACT TWITTER CLONE: Project to explore Stateful Components with React
 
 ## Installation
 
-TODO: Describe the installation process
-
-## Usage
-
 - Clone the repo to your local machine
 - Run `npm install` to install node modules
 - Run `npm build` to build the app
