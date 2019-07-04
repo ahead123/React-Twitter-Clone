@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "watchify -t [ babelify --presets [ es2015 react ] ] src/index.js -o build/app.js"
+    "build": "watchify -t [ babelify --presets [ es2015 react ] ] src/index.js -o build/app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +23,8 @@
     "react-dom": "^15.3.2",
     "react-fontawesome": "^1.2.0",
     "reactify": "^1.1.1",
-    "watchify": "^3.7.0"
-  }
+    "watchify": "^3.7.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
